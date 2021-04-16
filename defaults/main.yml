@@ -1,0 +1,10 @@
+---
+app_user: www-data
+app_group: www-data
+clean_composer_dev_deps: true
+laravel_app: true
+npm_install: true
+delete_env_after_test: true
+
+bitbucket_consumer_key: ""
+bitbucket_consumer_secret: ""
