@@ -1,7 +1,7 @@
 Application
 =========
 
-Install PHP app from deb file and create app user
+Install Craft CMS website from deb file and create app user
 Run phpunit if env.testing exists
 Build env file from base exaple and dict
 
@@ -19,7 +19,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - entanet-devops.application
+         - entanet-devops.craft
 
 License
 -------
