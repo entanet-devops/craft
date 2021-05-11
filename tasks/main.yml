@@ -2,6 +2,12 @@
   apt: 
     deb: "{{ app_deb_package }}"
 
+- name: Install mysql-client
+  apt:
+    name: mysql-client
+    state: present
+    install_recommends: no
+
 - name: Create app user.
   user:
     name: "{{ app_user }}"
